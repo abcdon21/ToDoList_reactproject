@@ -1,0 +1,77 @@
+body{
+  background-color: #d8e2dc;
+}
+
+.todolist{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+h1{
+  font-size: 3rem;
+  color: #9d8189;
+}
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px,10px;
+  border: none;
+  color: white;
+ 
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s ease ease-in-out;
+
+}
+
+.add{
+  background-color: #b5e48c;
+}
+.add:hover{
+  background-color: #149b16;
+}
+.delete{
+  background-color: #b23a48;
+}
+.delete:hover{
+  background-color: #8c2f38;
+}
+.move{
+  background-color: #5081ec;
+}
+.move:hover{
+  background-color: #150770bf;
+}
+input[type="text"]{
+font-size: 1rem;
+padding: 5px;
+border: 2px solid #9d8189;
+border-radius: 5px;
+color: #eb248e;
+
+}
+ol{
+  padding: 0;
+  font-weight: bold;
+  
+}
+li{
+  font-size: 1.5rem;
+  padding: 15px;
+  background-color: #ec8db7b4;
+  margin-bottom: 10px;
+border:3px solid #ffe5d967;
+color: #e70b72;
+border-radius: 5px;
+display: flex;
+align-items: center;
+
+}
+.text{
+  flex: 1;
+}
+.delete,.move{
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem;
+}
